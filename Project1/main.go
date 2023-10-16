@@ -397,4 +397,9 @@ func mustStrToInt(s string) int64 {
 // I used AI for this assignment by asking Chat GPT to write functions
 // for priority, SJF, and round robin. I also asked Chat GPT to fix
 // the priority and round robin functions to make them more accurate to
-// my expected output for those functions.
+// my expected output for those functions. I asked Chat GPT to fix the
+// priority function to make the processes running in the order of their
+// assigned prorities and fix the round robin function to follow my
+// desired round robin procedure more accurately to my expected Gantt
+// chart. I asked them to write a round robin function to have each of
+// the processes run for 2 units while taking turns.
