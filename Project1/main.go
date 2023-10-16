@@ -396,5 +396,5 @@ func mustStrToInt(s string) int64 {
 
 // I used AI for this assignment by asking Chat GPT to write functions
 // for priority, SJF, and round robin. I also asked Chat GPT to fix
-// the SJF and round robin functions to make them more accurate to my
-// expected output for those functions.
+// the priority and round robin functions to make them more accurate to
+// my expected output for those functions.
