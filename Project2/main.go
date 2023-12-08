@@ -107,3 +107,8 @@ func executeCommand(name string, arg ...string) error {
 	// Execute the command and return the error.
 	return cmd.Run()
 }
+
+// I used AI for this assignment by asking Chat GPT
+// to edit the main.go command switch and the package
+// builtins with the echo, pwd, ls, mkdir, and whoami
+// commands.
